@@ -1,13 +1,20 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "galanoReg";
+  src: url("./fonts/galanogrotesque-regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "galanoMed";
+  src: url("./fonts/galanogrotesque-medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "galanoSemi";
+  src: url("./fonts/galanogrotesque-semibold.otf") format("opentype");
+  font-weight: 600;
 }
