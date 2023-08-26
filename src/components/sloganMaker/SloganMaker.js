@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { slogans } from "../slogans";
-import "./sloganMaker.scss";
 
 export const SloganMaker = ({ slogansNum = "1,023" }) => {
   const [slogan, setSlogan] = useState("cozy");

@@ -1,0 +1,38 @@
+.pr-main {
+  box-sizing: border-box;
+  padding: 80px 160px;
+}
+
+.pr-heading {
+  padding-bottom: 12px;
+  color: #1a181e;
+  font-family: "galanoSemi";
+  font-size: 36px;
+  font-style: normal;
+  line-height: 42px; /* 116.667% */
+  letter-spacing: -1.44px;
+}
+
+.pr-container {
+  @extend .flex-row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.pr-item-div {
+  width: 352px;
+}
+
+.pr-img {
+  height: 200px;
+  margin-bottom: 4px;
+}
+
+.pr {
+  margin: 16px 0 4px 0;
+  color: #1a181e;
+  font-family: "galanoReg";
+  font-size: 20px;
+  font-style: normal;
+  line-height: 28px; /* 140% */
+}

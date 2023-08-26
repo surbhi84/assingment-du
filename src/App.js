@@ -1,12 +1,17 @@
 import "./App.scss";
 import { Header } from "./components/header/Header";
+import { Products } from "./components/otherProducts/Products";
 import { SloganMaker } from "./components/sloganMaker/SloganMaker";
 
 const App = () => {
   return (
     <div className='App'>
-      <Header/>
-      <SloganMaker/>
+      <Header />
+      <div className="main-content">
+        <SloganMaker />
+        <Products />
+
+      </div>
     </div>
   );
 };
