@@ -1,4 +1,6 @@
 .pr-main {
+  @extend .flex-column;
+  justify-content: center;
   box-sizing: border-box;
   padding: 80px 160px;
 }
