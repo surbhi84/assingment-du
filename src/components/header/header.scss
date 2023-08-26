@@ -8,6 +8,11 @@
   flex-direction: column;
 }
 
+.flex-center{
+  @extend .flex-row;
+  align-items: center;
+}
+
 .header {
   height: 328px;
   padding: 0 160px;
