@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className='footer'>
-      <div className='flex-row'>
+      <div className='flex-row footer-container'>
         <img src='/logo/white.svg' alt='dukaan_logo' className='footer-logo' />
         <div className='flex-row footer-links-div'>
           <div className='flex-column footer-links'>
@@ -20,11 +20,11 @@ export const Footer = () => {
           </div>
           <div className='flex-column footer-links'>
             <span>About</span>
-            <span>
+            <span className="flex-row">
               Jobs
-              <span>
+              <div className="bg-circle">
                 3
-              </span>
+              </div>
             </span>
           </div>
           <div className='flex-column footer-links'>

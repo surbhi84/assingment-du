@@ -19,3 +19,106 @@ body {
   src: url("./fonts/galanogrotesque-semibold.otf") format("opentype");
   font-weight: 600;
 }
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0 16px !important;
+
+    .header-actions {
+      gap: 12px;
+    }
+
+    .header-btn {
+      display: none;
+    }
+  }
+
+  .main-content {
+    .sm-container{
+      margin-bottom: 64px;
+      .pagination-div{
+        margin: 24px 0 0 0;
+      }
+    }
+
+    .about-container {
+      flex-direction: column;
+      padding: 48px 16px;
+      gap: 16px;
+
+      .about-div{
+        width: 100%;
+      }
+    }
+
+    .pr-main {
+      padding: 40px 16px;
+
+      .pr-heading {
+        text-align: center;
+      }
+      .pr-container {
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+      }
+      .pr-item-div {
+        max-width: 100%;
+      }
+      .pr-img {
+        max-width: 100%;
+      }
+    }
+
+    .footer {
+      padding: 32px 16px 16px 16px;
+      height: fit-content;
+      width: 100%;
+
+      .footer-container {
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .footer-links-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+      }
+
+      .footer-links {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1120px) {
+  .main-content {
+    .sm-container {
+      width: 100vw;
+      height: fit-content;
+      padding: 64px 16px;
+
+      .sm-btn-outline {
+        padding: 4px 8px;
+      }
+
+      .sm-input {
+        width: 100%;
+      }
+
+      .sm-partition,
+      .sm-partition-1 {
+        width: 100%;
+      }
+      .slogan-container {
+        grid-template-columns: 1fr;
+      }
+      .sm-slogan-tile {
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+}
