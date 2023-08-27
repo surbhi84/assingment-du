@@ -67,11 +67,11 @@ export const SloganMaker = ({ slogansNum = "1,023" }) => {
           onClick={() => setSlogan("")}
         />
       </div>
-      <button className='sm-btn'>Generate slogans</button>
+      <button className='sm-btn cur-p'>Generate slogans</button>
       <div className='sm-partition'></div>
       <div className='sm-result flex-center'>
         <span> We have generated {slogansNum} slogans for "cozy"</span>
-        <button className='sm-btn-outline'>Download all</button>
+        <button className='sm-btn-outline cur-p'>Download all</button>
       </div>
       <div className='slogan-container'>
         {slogans.map((item, index) => (
@@ -79,14 +79,14 @@ export const SloganMaker = ({ slogansNum = "1,023" }) => {
         ))}
       </div>
       <div className='sm-partition-1'></div>
-      {/* pagination */}
 
+      {/* pagination */}
       <div className='pagination-div flex-center'>
-        <div className='current-page'>1</div>
-        <div>2</div>
-        <div>3</div>
+        <div className='current-page cur-p'>1</div>
+        <div className='cur-p'>2</div>
+        <div className='cur-p'>3</div>
         <div>...</div>
-        <div>21</div>
+        <div className='cur-p'>21</div>
         <button className='flex-center pagination-btn'>
           Next <img src='/icons/arrow.svg' alt='arrow_icon' />
         </button>
