@@ -1,0 +1,38 @@
+.footer {
+  box-sizing: border-box;
+  height: 283px;
+  color: #fff;
+  background-color: #1a181e;
+  padding: 64px 160px 24px 160px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.footer-links-div {
+  gap: 102px;
+  margin-left: auto;
+}
+
+.footer-links {
+  font-family: "galanoReg";
+  font-size: 18px;
+  font-style: normal;
+  line-height: 26px; /* 144.444% */
+  gap: 16px;
+}
+
+.footer-closing {
+  margin-left: auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-divider {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 1px;
+  margin: 40px 0 24px 0;
+}
