@@ -70,7 +70,7 @@ export const SloganMaker = ({ slogansNum = "1,023" }) => {
       <button className='sm-btn cur-p'>Generate slogans</button>
       <div className='sm-partition'></div>
       <div className='sm-result flex-center'>
-        <span> We have generated {slogansNum} slogans for "cozy"</span>
+        <span className="sm-result-heading"> We have generated {slogansNum} slogans for "cozy"</span>
         <button className='sm-btn-outline cur-p'>Download all</button>
       </div>
       <div className='slogan-container'>
